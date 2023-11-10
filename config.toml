@@ -3,3 +3,8 @@ true-color = true
 
 [editor.lsp]
 display-inlay-hints = true
+
+[keys.normal]
+"$" = "goto_line_end"
+"{" = "goto_prev_paragraph"
+"}" = "goto_next_paragraph"
