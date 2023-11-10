@@ -5,3 +5,7 @@ formatter = { command = "goimports" }
 
 [language-server.rust-analyzer.config.check]
 command = "clippy"
+
+[[languages]]
+name = "rust"
+auto-format = true
