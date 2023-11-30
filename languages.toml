@@ -9,3 +9,7 @@ command = "clippy"
 [[languages]]
 name = "rust"
 auto-format = true
+
+[[languages]]
+name = "json"
+config = { "provideFormatter" = true, "json" = { "keepLines" = { "enable" = true } } }
